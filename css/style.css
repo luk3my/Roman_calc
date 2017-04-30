@@ -1,0 +1,63 @@
+body {
+  height: 900px; 
+}
+#column {
+display: block;
+height: 700px;
+width: 500px;  
+background-image: url('https://openclipart.org/download/193031/anotherclassicromanframe.svg');
+background-repeat:no-repeat;
+background-size: 500px;  
+margin-left: auto;
+margin-right: auto;
+}
+
+h1 {
+  margin-top: 20px;
+  text-align: center;
+  font-family: 'Arbutus Slab', serif;
+  font-weight: bold;
+}
+
+#result {
+  
+  text-align: center;
+  font-family: 'Arbutus Slab', serif;
+  font-size: 80px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 140px;
+  
+}
+
+input {
+ 
+ display: block;
+ margin-top: 40px;
+ margin-bottom: 15px;
+ margin-left: auto;
+ margin-right: auto;
+  
+}
+
+#convert {
+  display: block;
+ margin-bottom: 50px;
+ margin-left: auto;
+ margin-right: auto;
+  
+}
+
+#convert {
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    border-style: none;
+    padding: 10px;
+    font-family: 'Arbutus Slab', serif;
+}
+
+#convert:hover {
+    background-color: #000000; 
+    color: white;
+}
+...
